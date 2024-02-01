@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="d-flex flex-wrap bd-highlight container">
+        <% dados.forEach(dado => { %>
+        <div class="container">
+            <div class="col">
+                <div class="card">
+                    <h1><%= dado.titulo %></h1>
+                    <p><%= dado.conteudo %></p>
+                </div>
+            </div>
+        </div>
+        <% }) %>
+        <%# for (let index=1; index < 8; index++) { %>
+        <%# console.log(index, nome_arquivo, img_tag); %>
+        <!-- <div class="order-<%#= index; %>p-2 bd-highlight">
+                <h1><%#= titulo %></h1>
+                <p><%#= conteudo %></p>
+            </div> -->
+        <%# } %>
+        <!-- <div class="order-2 p-2 bd-highlight"><img src="logo-invertido-metal-1.png" width="240px" height="240px" alt="metal-slug"/></div>    <div class="order-1 p-2 bd-highlight"><img src="logo-invertido-metal-2.png" width="240px" height="240px" alt="metal-slug"/></div>    <div class="order-5 p-2 bd-highlight"><img src="logo-invertido-metal-3.png" width="240px" height="240px" alt="metal-slug"/></div>    <div class="order-8 p-2 bd-highlight"><img src="logo-invertido-metal-4.png" width="240px" height="240px" alt="metal-slug"/></div>    <div class="order-6 p-2 bd-highlight"><img src="logo-invertido-metal-5.png" width="240px" height="240px" alt="metal-slug"/></div>    <div class="order-7 p-2 bd-highlight"><img src="logo-invertido-metal-6.png" width="240px" height="240px" alt="metal-slug"/></div>    <div class="order-7 p-2 bd-highlight"><img src="logo-invertido-metal-7.png" width="240px" height="240px" alt="metal-slug"/></div> -->
+    </div>
+</div>

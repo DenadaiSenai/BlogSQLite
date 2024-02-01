@@ -1,0 +1,16 @@
+CREATE TABLE "users" (
+	"id"	INTEGER NOT NULL UNIQUE,
+	"username"	TEXT,
+	"password"	TEXT,
+	PRIMARY KEY("id" AUTOINCREMENT)
+);
+
+CREATE TABLE "posts" (
+	"id"	INTEGER NOT NULL UNIQUE,
+	"titulo"	TEXT NOT NULL,
+	"conteudo"	TEXT NOT NULL,
+	"autor"	TEXT NOT NULL,
+	"data"	TEXT NOT NULL,
+	PRIMARY KEY("id" AUTOINCREMENT)
+);
+
